@@ -12,6 +12,7 @@
 		715C84941F91891800FDE146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715C84921F91891800FDE146 /* Main.storyboard */; };
 		715C84961F91891800FDE146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715C84951F91891800FDE146 /* Assets.xcassets */; };
 		715C84991F91891800FDE146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715C84971F91891800FDE146 /* LaunchScreen.storyboard */; };
+		71C982D81F955DAA00F0B352 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C982D71F955DAA00F0B352 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		715C84951F91891800FDE146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		715C84981F91891800FDE146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		715C849A1F91891800FDE146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C982D71F955DAA00F0B352 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				715C848E1F91891800FDE146 /* AppDelegate.swift */,
 				715C84901F91891800FDE146 /* ViewController.swift */,
+				71C982D71F955DAA00F0B352 /* Game.swift */,
 				715C84921F91891800FDE146 /* Main.storyboard */,
 				715C84951F91891800FDE146 /* Assets.xcassets */,
 				715C84971F91891800FDE146 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				715C84911F91891800FDE146 /* ViewController.swift in Sources */,
+				71C982D81F955DAA00F0B352 /* Game.swift in Sources */,
 				715C848F1F91891800FDE146 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				715C849F1F91891800FDE146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
